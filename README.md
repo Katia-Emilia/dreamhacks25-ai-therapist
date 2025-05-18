@@ -1,11 +1,11 @@
 About the Project – Thea: Your AI Therapist
 💡 Inspiration
 
-A major gap in the market is making mental health support more accessible to people who find difficulties in cost, stigma, or availability. This is when I realized I needed to build an AI therapist which anyone and everyone could talk to, in a safe, private, and judgement-free space. Thea is an intelligent companion which allows users to text, voice, or video their thoughts in a supportive and safe digital environment.
+A major gap in the market is making mental health support more accessible to people who find difficulties in cost, stigma, or availability. This is when we realized we needed to build an AI therapist which anyone and everyone could talk to, in a safe, private, and judgement-free space. Thea is an intelligent companion which allows users to text, voice, or video their thoughts in a supportive and safe digital environment.
 
-As part of the team theme for this Web3 hackathon, I built Thea as a web app using Flask with privacy first Thea is a web app built using Flask with plans to integrate decentralized identity and data handling in later iterations.
+As part of the team theme for this Web3 hackathon, we built Thea as a web app with privacy first, built using Flask with plans to integrate decentralized identity and data handling in later iterations.
 
-🌐 What I Built
+🌐 What We Built
 
 Thea is a browser accessible AI therapy companion powered by Flask. The user interface includes:
 
@@ -57,7 +57,7 @@ Designing a safe and coherent interface, especially in relation to Thea’s iden
 
 Integrating multiple AI capabilities into a low footprint web service
 
-✅ What I Learned
+✅ What We Learned
 
 Integrating AI features into web applications using Flask
 
