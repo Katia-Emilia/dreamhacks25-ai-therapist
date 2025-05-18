@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+ <html>
+     <head> 
+        <title>Welcome to Thea</title> 
+    </head> 
+    <body>
+         <h1>Welcome to Thea - Your AI Therapist</h1>
+          {% if error %}<p style="color:red;">{{ error }}</p>{% endif %} 
+          <form method="POST">
+             <p>Before we proceed, please note:</p> 
+             <p><strong>Thea is an AI companion, not a licensed therapist.</strong></p> 
+             <label>Type 'y' to agree: <input type="text" name="agreement" required></label>
+             <br><br> 
+             <label>Your Name: <input type="text" name="name" required></label>
+             <br><br> 
+             <label>Select Mode:</label>
+             <br>
+              <input type="radio" name="mode" value="1" checked> 
+              Text Chat<br>
+               <input type="radio" name="mode" value="2"> 
+               Text Chat with Emotion Detection<br>
+                <input type="radio" name="mode" value="3"> 
+                Voice Chat<br>
+                <br> <button type="submit">Start Session</button> 
+            </form> 
+        </body> 
+        </html>

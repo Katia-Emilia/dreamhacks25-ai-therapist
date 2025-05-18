@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thea - Chat</title>
+</head>
+<body>
+    <h2>Hello {{ name }}, I'm Thea. How are you feeling today?</h2>
+
+    {% if goodbye %}
+        <p><strong>Thea:</strong> Ok then, see you next time.</p>
+    {% else %}
+        <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+            {% for exchange in conversation %}
+                <p><strong>You:</strong> {{ exchange.user }}</p>
+                <p><strong>Thea:</strong> {{ exchange.thea }}</p>
+                <hr>
+            {% endfor %}
+        </div>
+
+        <form method="POST">
+            <input type="text" name="user_input" placeholder="Your message..." required>
+            <button type="submit">Send</button>
+        </form>
+    {% endif %}
+</body>
+</html>
